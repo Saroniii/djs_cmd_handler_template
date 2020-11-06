@@ -3,14 +3,14 @@ const client = new Discord.Client();
 const fs = require('fs');
 const path = './commands';
 const token = process.env.token;
-const prefix = '!'
+const prefix = '!';
 client.cmds = new Discord.Collection();
 
 client.once('ready', () => {
     console.log('Bot Started...');
     const cmdFiles = fs.readdirSync(path).filter(file_data => file_data.endsWith('.js'));
-    loadCmdFiles(cmdFiles)
-    console.log('Bot is now up and running!')
+    loadCmdFiles(cmdFiles);
+    console.log('Bot is now up and running!');
 });
 
 const loadCmdFiles = (cmdFiles) => {
