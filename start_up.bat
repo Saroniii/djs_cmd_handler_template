@@ -1,1 +1,1 @@
-node core.js
+node main.js
