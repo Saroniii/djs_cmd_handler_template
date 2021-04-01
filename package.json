@@ -4,7 +4,7 @@
   "description": "A template in discord.js that uses a command handler to support efficient development.\r # How to use\r If you want to use this code on the VPS...\r > Add a Bot token in the environment variable named token, start it, and it will work.",
   "main": "main.js",
   "dependencies": {
-    "discord.js": "^12.5.1"
+    "discord.js": "^12.5.2"
   },
   "devDependencies": {},
   "scripts": {
